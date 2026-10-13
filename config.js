@@ -1,31 +1,16 @@
-/* ============================================================
-   CONFIGURACIÓN CENTRAL — Oasis de la Montaña
-   Aquí se edita todo lo que cambia: contacto, mapa y fotografías.
-   ============================================================ */
+
 window.SITE = {
-  // Número en formato internacional, solo dígitos. Ej: "50688887777"
-  // Mientras esté vacío, los botones muestran "contacto pendiente".
   whatsapp: "71736440",
   whatsappMessage: "Hola, quisiera consultar disponibilidad en Oasis de la Montaña.",
-
-  // Enlace de Google Maps (compartir > copiar enlace). Vacío = "pendiente".
   mapsUrl: "https://maps.app.goo.gl/PigYBiwk7ruvjDts8",
 
-  // Imágenes ilustrativas (reemplázalas por fotos reales con el mismo nombre
-  // en la carpeta /img, o cambia la ruta). Si el archivo no existe,
-  // se muestra un espacio reservado elegante.
   images: {
     hero:   { src: "img/portada.jpg",   alt: "Montañas cubiertas de bosque y neblina" },
     nature: { src: "img/cabana1.jpeg", alt: "Bosque de montaña con helechos y neblina" },
   },
 
-  // Poner en false cuando uses fotos reales (oculta "Imagen ilustrativa…")
-  showIllustrativeCaption: true,
+  showIllustrativeCaption: false,
 
-  /* GALERÍA — para agregar una foto: copia la imagen a /img y añade un objeto.
-     Campos: id, src, alt, title (opcional), description (opcional),
-             category, order (número, menor = primero).
-     Sin fotos aquí, la galería muestra espacios reservados. */
 
   /* GALERÍA */
   photos: [
